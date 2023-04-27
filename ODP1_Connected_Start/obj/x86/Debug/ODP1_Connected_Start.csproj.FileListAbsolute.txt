@@ -1,0 +1,34 @@
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\bin\Debug\ODP1_Connected_Start.exe
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\bin\Debug\ODP1_Connected_Start.pdb
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\bin\Debug\Oracle.DataAccess.dll
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.ActorsForm.resources
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.exe
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.pdb
+D:\New\TA materials\2020\second term\db\labs\lab2\ODP2_Connected_Start\ODP2_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.exe
+D:\New\TA materials\2020\second term\db\labs\lab2\ODP2_Connected_Start\ODP2_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.pdb
+D:\Education\College FCIS\Courses\6th semester\Software\Project\Phase 2\Project\ODP1_Connected_Start\bin\Debug\ODP1_Connected_Start.exe.config
+D:\Education\College FCIS\Courses\6th semester\Software\Project\Phase 2\Project\ODP1_Connected_Start\bin\Debug\ODP1_Connected_Start.exe
+D:\Education\College FCIS\Courses\6th semester\Software\Project\Phase 2\Project\ODP1_Connected_Start\bin\Debug\ODP1_Connected_Start.pdb
+D:\Education\College FCIS\Courses\6th semester\Software\Project\Phase 2\Project\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.csproj.AssemblyReference.cache
+D:\Education\College FCIS\Courses\6th semester\Software\Project\Phase 2\Project\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.csproj.SuggestedBindingRedirects.cache
+D:\Education\College FCIS\Courses\6th semester\Software\Project\Phase 2\Project\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.ActorsForm.resources
+D:\Education\College FCIS\Courses\6th semester\Software\Project\Phase 2\Project\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.Properties.Resources.resources
+D:\Education\College FCIS\Courses\6th semester\Software\Project\Phase 2\Project\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.csproj.GenerateResource.cache
+D:\Education\College FCIS\Courses\6th semester\Software\Project\Phase 2\Project\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.csproj.CoreCompileInputs.cache
+D:\Education\College FCIS\Courses\6th semester\Software\Project\Phase 2\Project\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.exe
+D:\Education\College FCIS\Courses\6th semester\Software\Project\Phase 2\Project\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.pdb
+C:\Users\Mena\Desktop\Project\ODP1_Connected_Start\bin\Debug\ODP1_Connected_Start.exe.config
+C:\Users\Mena\Desktop\Project\ODP1_Connected_Start\bin\Debug\ODP1_Connected_Start.exe
+C:\Users\Mena\Desktop\Project\ODP1_Connected_Start\bin\Debug\ODP1_Connected_Start.pdb
+C:\Users\Mena\Desktop\Project\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.csproj.AssemblyReference.cache
+C:\Users\Mena\Desktop\Project\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mena\Desktop\Project\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.Properties.Resources.resources
+C:\Users\Mena\Desktop\Project\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.csproj.GenerateResource.cache
+C:\Users\Mena\Desktop\Project\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.csproj.CoreCompileInputs.cache
+C:\Users\Mena\Desktop\Project\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.exe
+C:\Users\Mena\Desktop\Project\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.pdb
+C:\Users\Mena\Desktop\Project\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.AdminForm.resources
