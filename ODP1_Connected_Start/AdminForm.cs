@@ -78,6 +78,9 @@ namespace ODP1_Connected_Start
             loadData();
         }
 
-      
+        private void dataGrd_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

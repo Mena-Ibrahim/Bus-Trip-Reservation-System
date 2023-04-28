@@ -39,9 +39,10 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(827, 487);
+            this.btnSave.Location = new System.Drawing.Point(620, 396);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(153, 40);
+            this.btnSave.Size = new System.Drawing.Size(115, 32);
             this.btnSave.TabIndex = 5;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -50,19 +51,22 @@
             // dataGrd
             // 
             this.dataGrd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGrd.Location = new System.Drawing.Point(354, 23);
+            this.dataGrd.Location = new System.Drawing.Point(266, 19);
+            this.dataGrd.Margin = new System.Windows.Forms.Padding(2);
             this.dataGrd.Name = "dataGrd";
             this.dataGrd.RowHeadersWidth = 51;
             this.dataGrd.RowTemplate.Height = 24;
-            this.dataGrd.Size = new System.Drawing.Size(636, 414);
+            this.dataGrd.Size = new System.Drawing.Size(477, 336);
             this.dataGrd.TabIndex = 4;
+            this.dataGrd.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGrd_CellContentClick);
             // 
             // radioUsers
             // 
             this.radioUsers.AutoSize = true;
-            this.radioUsers.Location = new System.Drawing.Point(37, 42);
+            this.radioUsers.Location = new System.Drawing.Point(28, 34);
+            this.radioUsers.Margin = new System.Windows.Forms.Padding(2);
             this.radioUsers.Name = "radioUsers";
-            this.radioUsers.Size = new System.Drawing.Size(64, 20);
+            this.radioUsers.Size = new System.Drawing.Size(52, 17);
             this.radioUsers.TabIndex = 6;
             this.radioUsers.TabStop = true;
             this.radioUsers.Text = "Users";
@@ -72,9 +76,10 @@
             // radioTrips
             // 
             this.radioTrips.AutoSize = true;
-            this.radioTrips.Location = new System.Drawing.Point(37, 97);
+            this.radioTrips.Location = new System.Drawing.Point(28, 79);
+            this.radioTrips.Margin = new System.Windows.Forms.Padding(2);
             this.radioTrips.Name = "radioTrips";
-            this.radioTrips.Size = new System.Drawing.Size(59, 20);
+            this.radioTrips.Size = new System.Drawing.Size(48, 17);
             this.radioTrips.TabIndex = 7;
             this.radioTrips.TabStop = true;
             this.radioTrips.Text = "Trips";
@@ -84,9 +89,10 @@
             // radioReservations
             // 
             this.radioReservations.AutoSize = true;
-            this.radioReservations.Location = new System.Drawing.Point(37, 150);
+            this.radioReservations.Location = new System.Drawing.Point(28, 122);
+            this.radioReservations.Margin = new System.Windows.Forms.Padding(2);
             this.radioReservations.Name = "radioReservations";
-            this.radioReservations.Size = new System.Drawing.Size(108, 20);
+            this.radioReservations.Size = new System.Drawing.Size(87, 17);
             this.radioReservations.TabIndex = 8;
             this.radioReservations.TabStop = true;
             this.radioReservations.Text = "Reservations";
@@ -96,9 +102,10 @@
             // radioRefunds
             // 
             this.radioRefunds.AutoSize = true;
-            this.radioRefunds.Location = new System.Drawing.Point(37, 200);
+            this.radioRefunds.Location = new System.Drawing.Point(28, 162);
+            this.radioRefunds.Margin = new System.Windows.Forms.Padding(2);
             this.radioRefunds.Name = "radioRefunds";
-            this.radioRefunds.Size = new System.Drawing.Size(78, 20);
+            this.radioRefunds.Size = new System.Drawing.Size(65, 17);
             this.radioRefunds.TabIndex = 9;
             this.radioRefunds.TabStop = true;
             this.radioRefunds.Text = "Refunds";
@@ -107,15 +114,16 @@
             // 
             // AdminForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1026, 559);
+            this.ClientSize = new System.Drawing.Size(770, 454);
             this.Controls.Add(this.radioRefunds);
             this.Controls.Add(this.radioReservations);
             this.Controls.Add(this.radioTrips);
             this.Controls.Add(this.radioUsers);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.dataGrd);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AdminForm";
             this.Text = "AdminForm";
             ((System.ComponentModel.ISupportInitialize)(this.dataGrd)).EndInit();
