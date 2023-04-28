@@ -15,6 +15,18 @@ namespace ODP1_Connected_Start
         public RegisterForm()
         {
             InitializeComponent();
+            MessageBox.Show(LoginForm.loggedInID.ToString());
+
+        }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

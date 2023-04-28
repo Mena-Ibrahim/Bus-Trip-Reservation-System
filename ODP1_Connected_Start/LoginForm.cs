@@ -14,6 +14,7 @@ namespace ODP1_Connected_Start
     public partial class LoginForm : Form
     {
         OracleConnection connection;
+        public static int loggedInID = -1;
         public LoginForm()
         {
             InitializeComponent();
@@ -21,42 +22,7 @@ namespace ODP1_Connected_Start
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            string Email = txtEmail.Text.ToLower();
-            string Password = txtPassword.Text;
-
-            OracleCommand command = new OracleCommand();
-            command.Connection = connection;
-            command.CommandText = "SELECT Count(*) FROM users WHERE lower(email) = :email AND password = :password";
-            command.CommandType= CommandType.Text;
-            command.Parameters.Add("email", Email);
-            command.Parameters.Add("password", Password);
-
-            //Execute scalar returns a cell in the first row and the first column
-            int count = Convert.ToInt32(command.ExecuteScalar());
-
-            if (count > 0) // login successful
-            {
-                command.CommandText = "SELECT isAdmin FROM users WHERE lower(email) = :email AND password = :password";
-                bool isAdmin = Convert.ToBoolean(command.ExecuteScalar());
-
-                if (isAdmin)
-                {
-                    AdminForm adminForm = new AdminForm();
-                    adminForm.Show();
-                    Hide();
-                }
-                else
-                {
-                    MessageBox.Show("normal user");
-                }
-            }
-            else //login failed
-            {
-                MessageBox.Show("Incorrect email or password, please try again.");
-
-            }
-
-            command.Dispose();
+            login(txtEmail.Text.ToLower(), txtPassword.Text);
         }
 
         private void btnRegister_Click(object sender, EventArgs e)
@@ -76,6 +42,45 @@ namespace ODP1_Connected_Start
         private void LoginForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             connection.Dispose();
+        }
+
+
+        private void login(string Email, string Password) {
+            OracleCommand command = new OracleCommand();
+            command.Connection = connection;
+            command.CommandText = "SELECT Count(*) FROM users WHERE lower(email) = :email AND password = :password";
+            command.CommandType = CommandType.Text;
+            command.Parameters.Add("email", Email);
+            command.Parameters.Add("password", Password);
+
+            //Execute scalar returns a cell in the first row and the first column
+            int count = Convert.ToInt32(command.ExecuteScalar());
+
+            if (count > 0) // login successful
+            {
+                command.CommandText = "SELECT isAdmin FROM users WHERE lower(email) = :email AND password = :password";
+                bool isAdmin = Convert.ToBoolean(command.ExecuteScalar());
+
+                if (isAdmin)
+                {
+                    AdminForm adminForm = new AdminForm();
+                    adminForm.Show();
+                    Hide();
+                }
+                else
+                {
+                    command.CommandText = "SELECT id FROM users WHERE lower(email) = :email AND password = :password";
+                    loggedInID = Convert.ToInt32(command.ExecuteScalar());
+                    MessageBox.Show("Go to users form and id is " + loggedInID);
+                }
+            }
+            else //login failed
+            {
+                MessageBox.Show("Incorrect email or password, please try again.");
+
+            }
+
+            command.Dispose();
         }
     }
 }
