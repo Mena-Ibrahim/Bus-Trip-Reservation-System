@@ -34,6 +34,7 @@
             this.radioTrips = new System.Windows.Forms.RadioButton();
             this.radioReservations = new System.Windows.Forms.RadioButton();
             this.radioRefunds = new System.Windows.Forms.RadioButton();
+            this.btnLogout = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrd)).BeginInit();
             this.SuspendLayout();
             // 
@@ -105,11 +106,22 @@
             this.radioRefunds.UseVisualStyleBackColor = true;
             this.radioRefunds.CheckedChanged += new System.EventHandler(this.radioRefunds_CheckedChanged);
             // 
+            // btnLogout
+            // 
+            this.btnLogout.Location = new System.Drawing.Point(37, 469);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(153, 40);
+            this.btnLogout.TabIndex = 10;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1026, 559);
+            this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.radioRefunds);
             this.Controls.Add(this.radioReservations);
             this.Controls.Add(this.radioTrips);
@@ -132,5 +144,6 @@
         private System.Windows.Forms.RadioButton radioTrips;
         private System.Windows.Forms.RadioButton radioReservations;
         private System.Windows.Forms.RadioButton radioRefunds;
+        private System.Windows.Forms.Button btnLogout;
     }
 }

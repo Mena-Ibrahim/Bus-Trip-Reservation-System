@@ -15,7 +15,7 @@ namespace ODP1_Connected_Start
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AdminForm());
+            Application.Run(new LoginForm());
         }
     }
 }

@@ -78,6 +78,11 @@ namespace ODP1_Connected_Start
             loadData();
         }
 
-      
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
+            Hide();
+        }
     }
 }
