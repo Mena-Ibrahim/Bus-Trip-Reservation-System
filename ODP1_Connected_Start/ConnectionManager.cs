@@ -8,6 +8,6 @@ namespace ODP1_Connected_Start
 {
     public static class ConnectionManager
     {
-        public static string ConnectionString = "data source=oracle; user id=hr; password=hr;";
+        public static string ConnectionString = "data source=orcl; user id=hr; password=hr;";
     }
 }
