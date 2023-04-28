@@ -59,7 +59,7 @@
             this.dataGrd.RowTemplate.Height = 24;
             this.dataGrd.Size = new System.Drawing.Size(477, 336);
             this.dataGrd.TabIndex = 4;
-            this.dataGrd.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGrd_CellContentClick);
+            //this.dataGrd.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGrd_CellContentClick);
             // 
             // radioUsers
             // 

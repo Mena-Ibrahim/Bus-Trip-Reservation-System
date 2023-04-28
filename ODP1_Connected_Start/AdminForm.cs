@@ -28,7 +28,8 @@ namespace ODP1_Connected_Start
             {
                 table = "users";
             }
-            else if (radioTrips.Checked) {
+            else if (radioTrips.Checked)
+            {
                 table = "trips";
             }
             else if (radioReservations.Checked)
@@ -54,7 +55,7 @@ namespace ODP1_Connected_Start
                 adapter.Update(ds.Tables[0]);
                 MessageBox.Show("Changes Saved!");
             }
-    
+
         }
         private void radioUsers_CheckedChanged(object sender, EventArgs e)
         {
@@ -77,9 +78,6 @@ namespace ODP1_Connected_Start
         {
             loadData();
         }
-
-        private void dataGrd_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
