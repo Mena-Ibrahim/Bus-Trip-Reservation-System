@@ -14,6 +14,7 @@ namespace ODP1_Connected_Start
     public partial class LoginForm : Form
     {
         OracleConnection connection;
+        // Global static variable to keep track of logged in user's id.
         public static int loggedInID = -1;
         public LoginForm()
         {
@@ -71,7 +72,9 @@ namespace ODP1_Connected_Start
                 {
                     command.CommandText = "SELECT id FROM users WHERE lower(email) = :email AND password = :password";
                     loggedInID = Convert.ToInt32(command.ExecuteScalar());
-                    MessageBox.Show("Go to users form and id is " + loggedInID);
+                    UserForm userForm = new UserForm();
+                    userForm.Show();
+                    Hide();
                 }
             }
             else //login failed
