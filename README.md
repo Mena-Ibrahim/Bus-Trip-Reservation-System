@@ -55,13 +55,3 @@ Contributions to the Bus Trip Reservations System are welcome. To contribute, fo
 5. Submit a pull request to the main repository.
 
 Please ensure that your code follows the project's coding conventions and includes appropriate documentation.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-If you have any questions or suggestions regarding the Bus Trip Reservations System, please contact the project administrator at [email protected]
-
-We appreciate your interest and contribution to this project!
